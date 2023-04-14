@@ -1,0 +1,23 @@
+if (HH>=1 && HH<=3 && newformat=="PM"){
+      document.getElementById("msg").innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP";
+      document.getElementById("right-msg").innerHTML = "LET'S HAVE SOME LUNCH !!";
+      document.getElementById("img").src = "./images/nap.svg";
+    }
+// const button = document.getElementById("myBtn");
+// button.addEventListener("click", myFunction);
+
+// function myFunction() {
+//     document.getElementById("header").innerText = "Welcome to Elevation Academy";
+// }
+
+let button = document.getElementById('myBtn');
+let p = document.getElementById('header');
+button.addEventListener("click", function(){
+  p.innerText = "welcome to elevation academy";
+})
+
+
+<p id="header">Hello World</p>
+    <button id="myBtn">Replace Text</button>
+
+https://github.com/Dthakur-12/Blog_Projec
